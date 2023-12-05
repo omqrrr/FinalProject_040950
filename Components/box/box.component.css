@@ -1,0 +1,16 @@
+.box {
+    border-radius: 25px;
+  
+    
+    margin: 8px 25px 8px 0px;
+    background-color: #36454f;
+  }
+
+  .border {
+    border: 5px solid red;
+}
+
+.card-title{
+  font-weight: bold;
+}
+

@@ -1,0 +1,25 @@
+<div style="background-color:#333;" class="row  wrapper">
+
+
+    <div class="col s12"> 
+        <a [routerLink]="['/homepage']" class="col l10  push-l1 left"><img src="../../../assets/images/elioor logo.png" style="height: 50px;"></a> 
+            
+            <div class="col l2  pull-l1 right">
+                <form #searchForm="ngForm" (ngSubmit)="searchbox(searchForm)">
+        
+                    <div class="input-field col l12 right valign-wrapper">
+                        <div class="col l12">
+                            <input placeholder="Buscar" id="search" name="search" type="search" [(ngModel)]="search">
+                        </div>
+                            <div class="right  ">
+                        <button type="submit"><img  class="icons right" src="../../../assets/images/search-icon.png"></button>
+                            </div>
+                    </div>
+        
+                </form>
+            </div>
+    </div>
+           
+</div>
+   
+       

@@ -1,0 +1,16 @@
+selector{
+    border: size style color;
+}
+
+.border {
+    border: 5px solid red;
+}
+
+.wrapper{
+    margin:0 ;
+    display:flex;
+}
+
+.box{
+    border-radius: 25px;
+}

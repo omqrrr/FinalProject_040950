@@ -1,0 +1,27 @@
+.wrapper{
+    margin:0 ;
+    display:flex;
+}
+.border {
+    border: 5px solid red;
+}
+
+.album{
+    border-radius: 40px;
+}
+
+.box {
+    position: absolute;
+    bottom: 0px;
+    align-content: center;
+}
+
+.main{
+    text-align:center;
+    position: relative;
+    
+}
+.btn{
+    border-radius: 5px;
+    background-color: darkslategray;
+}

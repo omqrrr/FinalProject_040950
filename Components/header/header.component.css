@@ -1,0 +1,29 @@
+.wrapper{
+    margin:0 ;
+    display:flex;
+}
+
+.side {
+    background-color:slategrey;
+}
+
+.hel {
+    font-family: Helvetica;
+}
+
+.icons {
+    height: 50px;
+}
+
+selector{
+    border: size style color;
+}
+
+.border {
+    border: 5px solid red;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+}
